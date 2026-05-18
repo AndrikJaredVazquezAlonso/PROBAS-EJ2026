@@ -1,8 +1,8 @@
 def buscar_artista(nombre):
     import requests, base64
 
-    id_cliente = "af2d253597054409ba6235c8443d71b6"
-    id_secreta = "eccb1bee291046ef9dfaa98638fe3945"
+    id_cliente = ---
+    id_secreta = ---
     combi_creden = id_cliente + ":" + id_secreta
     credencial64 = base64.b64encode(combi_creden.encode()).decode()
 
